@@ -4,3 +4,4 @@ function kleur_aanpassen() {
 }
 
 kleur_aanpassen();
+inhoud_aanpassen
