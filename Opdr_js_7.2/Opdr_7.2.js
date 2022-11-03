@@ -1,10 +1,10 @@
 function geld() { 
+    let aantal= prompt ("Heb jij genoeg geld?");
+    let budget = 100;
 
-    let product = 60;
-    let budget= 100;
-    
-    if ( budget > product ) {
-        document.getElementById("h1").innerHTML = "Helaas, u bent skeer";
+
+    if ( budget > aantal ) {
+        document.getElementById("h1").innerHTML = "Helaas, te weinig geld";
         document.getElementById("h1").style.color = "red";
     }
     else {
